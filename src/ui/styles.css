@@ -3,6 +3,35 @@
   text-align: center;
 }
 
+.container{
+ /* width: 97%; */
+ width: 700px;
+}
+.has-aux .rbt-input {
+  padding-right: unset !important;
+  text-indent: 22px;
+}
+.rbt-input-hint{
+  padding-top: 8px !important;
+}
+
+.rbt-input-main.form-control.rbt-input.focus{
+  border-radius: 4px !important;
+  border-color: #2684FF !important;
+  box-shadow: none !important;
+}
+.dropdown-item :hover{
+
+  background-color: #2684FF;
+  color: hsl(0,0%,100%);
+  cursor: default;
+}
+.dropdown-menu > li :hover {
+
+  background-color: #2684FF;
+  color: hsl(0,0%,100%);
+  cursor: default;
+}
 .sr-only {
   position: absolute;
   width: 1px;
@@ -16,7 +45,9 @@
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  /* top: 100%; */
+  /* top: -13px !important; */
+  width: 100% !important;
   left: 0;
   z-index: 1000;
   display: none;
@@ -25,6 +56,7 @@
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 14px;
+  box-shadow: none !important;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -33,8 +65,6 @@
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
 
 .dropdown-menu > li > a {
@@ -56,7 +86,7 @@ a {
   display: block;
   width: 100%;
   height: 34px;
-  padding: 6px 12px;
+  /* padding: 0px 0px !important; */
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
